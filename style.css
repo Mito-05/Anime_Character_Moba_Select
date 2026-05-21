@@ -1,4 +1,3 @@
-/* Contenedor Flexbox para distribuir las tarjetas */
 .cardDocumentaries {
     display: flex;
     flex-wrap: wrap;
@@ -7,29 +6,3 @@
     gap: 30px; /* Espacio de 30px entre tarjetas hacia los lados y hacia abajo */
 }
 
-/* Estilizado moderno para las tarjetas individuales de Bootstrap */
-.card {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    border-radius: 8px;
-    overflow: hidden; /* Evita que la imagen se salga de las esquinas redondeadas */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-/* Efecto opcional: la tarjeta se eleva ligeramente al pasar el ratón */
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
-}
-
-/* Tamaño de imagen controlado para que todas midan lo mismo */
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
-
-/* Tamaño de fuente muy pequeño para el pie de la tarjeta (Debut) */
-.xx-small {
-    font-size: 0.72rem;
-    letter-spacing: 0.3px;
-}
