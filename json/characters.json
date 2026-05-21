@@ -1,478 +1,493 @@
 {
-  "personajes": [
+  "characters": [
     {
       "id": 1,
-      "nombre": "Monkey D. Luffy",
+      "name": "Monkey D. Luffy",
       "alias": "Sombrero de Paja",
-      "obra_origen": "One Piece",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 19,
-        "fecha_nacimiento": "05-05",
-        "estado": "Vivo"
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779393749/monkey_d__luffy_rage_wallpaper_4k__one_piece_free__by_free_3dtextureshd_dko7rze-pre.jpg_l1ffqz.jpg",
+      "origin_work": "One Piece",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 19,
+        "birth_date": "05-05",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Negro",
-        "color_ojos": "Negro",
-        "rasgos_notables": ["Cicatriz bajo el ojo izquierdo", "Sombrero de paja"]
+      "appearance": {
+        "hair_color": "Negro",
+        "eye_color": "Negro",
+        "notable_features": ["Cicatriz bajo el ojo izquierdo", "Sombrero de paja"]
       },
-      "habilidades": [
+      "skills": [
         "Gomu Gomu no Mi / Hito Hito no Mi Modulo Nika",
         "Gears (2, 3, 4 y 5)",
         "Haki (Conquistador, Armadura, Observación)"
       ],
-      "relaciones": [
-        { "nombre": "Roronoa Zoro", "vinculo": "Primer oficial / Amigo" },
-        { "nombre": "Portgas D. Ace", "vinculo": "Hermano jurado" }
+      "relations": [
+        { "name": "Roronoa Zoro", "bond": "Primer oficial / Amigo" },
+        { "name": "Portgas D. Ace", "bond": "Hermano jurado" }
       ],
-      "descripcion": "Un joven pirata que sueña con encontrar el legendario tesoro One Piece y convertirse en el Rey de los Piratas."
+      "description": "Un joven pirata que sueña con encontrar el legendario tesoro One Piece y convertirse en el Rey de los Piratas."
     },
     {
       "id": 2,
-      "nombre": "Naruto Uzumaki",
+      "name": "Naruto Uzumaki",
       "alias": "El héroe de Konoha",
-      "obra_origen": "Naruto",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 17,
-        "fecha_nacimiento": "10-10",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Naruto",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 17,
+        "birth_date": "10-10",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Rubio",
-        "color_ojos": "Azul",
-        "rasgos_notables": ["Marcas de bigotes en las mejillas", "Banda de Konoha"]
+      "appearance": {
+        "hair_color": "Rubio",
+        "eye_color": "Azul",
+        "notable_features": ["Marcas de bigotes en las mejillas", "Banda de Konoha"]
       },
-      "habilidades": [
+      "skills": [
         "Rasengan",
         "Kage Bunshin no Jutsu (Clones de sombra)",
         "Modo Sabio",
         "Modo Kurama"
       ],
-      "relaciones": [
-        { "nombre": "Sasuke Uchiha", "vinculo": "Rival y mejor amigo" },
-        { "nombre": "Jiraiyan", "vinculo": "Maestro / Mentor" }
+      "relations": [
+        { "name": "Sasuke Uchiha", "bond": "Rival y mejor amigo" },
+        { "name": "Jiraiyan", "bond": "Maestro / Mentor" }
       ],
-      "descripcion": "Un ninja hiperactivo que busca el reconocimiento de su aldea y sueña con convertirse en Hokage."
+      "description": "Un ninja hiperactivo que busca el reconocimiento de su aldea y sueña con convertirse en Hokage."
     },
     {
       "id": 3,
-      "nombre": "Son Goku",
+      "name": "Son Goku",
       "alias": "Kakarotto",
-      "obra_origen": "Dragon Ball",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 42,
-        "fecha_nacimiento": "Año 737",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Dragon Ball",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 42,
+        "birth_date": "Año 737",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Negro",
-        "color_ojos": "Negro",
-        "rasgos_notables": ["Cabello erizado en puntas", "Cola de Saiyan (antiguamente)"]
+      "appearance": {
+        "hair_color": "Negro",
+        "eye_color": "Negro",
+        "notable_features": ["Cabello erizado en puntas", "Cola de Saiyan (antiguamente)"]
       },
-      "habilidades": [
+      "skills": [
         "Kamehameha",
         "Super Saiyan (1, 2, 3, God, Blue)",
         "Ultra Instinto",
         "Kaioken"
       ],
-      "relaciones": [
-        { "nombre": "Vegeta", "vinculo": "Rival y aliado" },
-        { "nombre": "Krilin", "vinculo": "Mejor amigo" }
+      "relations": [
+        { "name": "Vegeta", "bond": "Rival y aliado" },
+        { "name": "Krilin", "bond": "Mejor amigo" }
       ],
-      "descripcion": "Un guerrero de la raza Saiyan criado en la Tierra cuyo único objetivo es superarse a sí mismo y luchar contra oponentes fuertes."
+      "description": "Un guerrero de la raza Saiyan criado en la Tierra cuyo único objetivo es superarse a sí mismo y luchar contra oponentes fuertes."
     },
     {
       "id": 4,
-      "nombre": "Sung Jin-Woo",
+      "name": "Sung Jin-Woo",
       "alias": "El Monarca de las Sombras",
-      "obra_origen": "Solo Leveling",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 24,
-        "fecha_nacimiento": "Desconocida",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Solo Leveling",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 24,
+        "birth_date": "Desconocida",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1 (Manhwa)",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Negro",
-        "color_ojos": "Gris / Azul brillante (al usar poderes)",
-        "rasgos_notables": ["Mirada fría y afilada", "Brillo azul en los ojos"]
+      "appearance": {
+        "hair_color": "Negro",
+        "eye_color": "Gris / Azul brillante (al usar poderes)",
+        "notable_features": ["Mirada fría y afilada", "Brillo azul en los ojos"]
       },
-      "habilidades": [
+      "skills": [
         "Extracción de Sombras (Arise)",
         "Intercambio de Sombras",
         "Autoridad del Monarca",
         "Velocidad y fuerza sobrehumanas"
       ],
-      "relaciones": [
-        { "nombre": "Yoo Jin-Ho", "vinculo": "Amigo y socio" },
-        { "nombre": "Cha Hae-In", "vinculo": "Interés romántico" }
+      "relations": [
+        { "name": "Yoo Jin-Ho", "bond": "Amigo y socio" },
+        { "name": "Cha Hae-In", "bond": "Interés romántico" }
       ],
-      "descripcion": "Conocido originalmente como el cazador más débil de la humanidad, obtiene la capacidad de subir de nivel sin límites tras sobrevivir a una doble mazmorra."
+      "description": "Conocido originalmente como el cazador más débil de la humanidad, obtiene la capacidad de subir de nivel sin límites tras sobrevivir a una doble mazmorra."
     },
     {
       "id": 5,
-      "nombre": "Rudeus Greyrat",
+      "name": "Rudeus Greyrat",
       "alias": "Quagmire (Pantano)",
-      "obra_origen": "Mushoku Tensei",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 23,
-        "fecha_nacimiento": "Año 407 del Reino de Asura",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Mushoku Tensei",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 23,
+        "birth_date": "Año 407 del Reino de Asura",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Castaño claro / Rubio",
-        "color_ojos": "Verde",
-        "rasgos_notables": ["Ojo místico de la previsión", "Suele vestir túnicas de mago"]
+      "appearance": {
+        "hair_color": "Castaño claro / Rubio",
+        "eye_color": "Verde",
+        "notable_features": ["Ojo místico de la previsión", "Suele vestir túnicas de mago"]
       },
-      "habilidades": [
+      "skills": [
         "Magia sin encantamiento",
         "Magia de agua de nivel Dios",
         "Magia de tierra (creación de pantanos)",
         "Ojo de la Previsión"
       ],
-      "relaciones": [
-        { "nombre": "Sylphiette", "vinculo": "Esposa / Amiga de la infancia" },
-        { "nombre": "Roxy Migurdia", "vinculo": "Maestra y esposa" },
-        { "nombre": "Eris Boreas Greyrat", "vinculo": "Esposa y aliada de combate" }
+      "relations": [
+        { "name": "Sylphiette", "bond": "Esposa / Amiga de la infancia" },
+        { "name": "Roxy Migurdia", "bond": "Maestra y esposa" },
+        { "name": "Eris Boreas Greyrat", "bond": "Esposa y aliada de combate" }
       ],
-      "descripcion": "Un hombre desempleado y recluso de 34 años muere y reencarna en un mundo de fantasía medieval, decidido a vivir su nueva vida al máximo y sin arrepentimientos."
+      "description": "Un hombre desempleado y recluso de 34 años muere y reencarna en un mundo de fantasía medieval, decidido a vivir su nueva vida al máximo y sin arrepentimientos."
     },
     {
       "id": 6,
-      "nombre": "Light Yagami",
+      "name": "Light Yagami",
       "alias": "Kira",
-      "obra_origen": "Death Note",
-      "rol": "Protagonista / Antagonista",
-      "datos_personales": {
-        "edad": 23,
-        "fecha_nacimiento": "28-02",
-        "estado": "Fallecido"
+      "image": "",
+      "origin_work": "Death Note",
+      "role": "Protagonista / Antagonista",
+      "personal_data": {
+        "age": 23,
+        "birth_date": "28-02",
+        "status": "Fallecido"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Castaño",
-        "color_ojos": "Marrón / Rojo (efecto dramático)",
-        "rasgos_notables": ["Aspecto pulcro de estudiante modelo", "Mirada calculadora"]
+      "appearance": {
+        "hair_color": "Castaño",
+        "eye_color": "Marrón / Rojo (efecto dramático)",
+        "notable_features": ["Aspecto pulcro de estudiante modelo", "Mirada calculadora"]
       },
-      "habilidades": [
+      "skills": [
         "Intelecto genio",
         "Estratega maestro",
         "Uso de la Death Note"
       ],
-      "relaciones": [
-        { "nombre": "L Lawliet", "vinculo": "Rival intelectual / Enemigo" },
-        { "nombre": "Misa Amane", "vinculo": "Aliada / Peón" }
+      "relations": [
+        { "name": "L Lawliet", "bond": "Rival intelectual / Enemigo" },
+        { "name": "Misa Amane", "bond": "Aliada / Peón" }
       ],
-      "descripcion": "Un brillante estudiante de secundaria que encuentra un cuaderno sobrenatural capaz de matar a cualquiera cuyo nombre se escriba en él, desatando una cruzada para limpiar el mundo del crimen."
+      "description": "Un brillante estudiante de secundaria que encuentra un cuaderno sobrenatural capaz de matar a cualquiera cuyo nombre se escriba en él, desatando una cruzada para limpiar el mundo del crimen."
     },
     {
       "id": 7,
-      "nombre": "Shoyo Hinata",
-      "alias": "El Pequeño Gigante / Carnada Definitiva",
-      "obra_origen": "Haikyu!!",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 16,
-        "fecha_nacimiento": "21-06",
-        "estado": "Vivo"
+      "name": "Shoyo Hinata",
+      "alias": "El Pequeño Giant / Carnada Definitiva",
+      "image": "",
+      "origin_work": "Haikyu!!",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 16,
+        "birth_date": "21-06",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Naranja",
-        "color_ojos": "Marrón",
-        "rasgos_notables": ["Baja estatura para el voleibol", "Expresiones extremadamente energéticas"]
+      "appearance": {
+        "hair_color": "Naranja",
+        "eye_color": "Marrón",
+        "notable_features": ["Baja estatura para el voleibol", "Expresiones extremadamente energéticas"]
       },
-      "habilidades": [
+      "skills": [
         "Salto vertical extraordinario",
         "Velocidad y reflejos inhumanos",
         "Ataque rápido divino (con Kageyama)"
       ],
-      "relaciones": [
-        { "nombre": "Tobio Kageyama", "vinculo": "Rival y compañero de equipo" },
-        { "nombre": "Kenma Kozume", "vinculo": "Amigo y rival" }
+      "relations": [
+        { "name": "Tobio Kageyama", "bond": "Rival y compañero de equipo" },
+        { "name": "Kenma Kozume", "bond": "Amigo y rival" }
       ],
-      "descripcion": "Un jugador de voleibol de baja estatura que, inspirado por el 'Pequeño Gigante', lucha por convertirse en la estrella del equipo Karasuno superando sus barreras físicas."
+      "description": "Un jugador de voleibol de baja estatura que, inspirado por el 'Pequeño Gigante', lucha por convertirse en la estrella del equipo Karasuno superando sus barreras físicas."
     },
     {
       "id": 8,
-      "nombre": "Asta",
+      "name": "Asta",
       "alias": "El chico sin magia",
-      "obra_origen": "Black Clover",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 17,
-        "fecha_nacimiento": "04-10",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Black Clover",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 17,
+        "birth_date": "04-10",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Gris ceniza",
-        "color_ojos": "Verde",
-        "rasgos_notables": ["Musculatura muy desarrollada", "Banda negra en la cabeza", "Grimorio de 5 hojas"]
+      "appearance": {
+        "hair_color": "Gris ceniza",
+        "eye_color": "Verde",
+        "notable_features": ["Musculatura muy desarrollada", "Banda negra en la cabeza", "Grimorio de 5 hojas"]
       },
-      "habilidades": [
+      "skills": [
         "Antimagia",
         "Espadas del Grimorio (Danma, Shukuma, etc.)",
         "Forma Black Asta",
         "Lectura de Ki"
       ],
-      "relaciones": [
-        { "nombre": "Yuno Grinberryall", "vinculo": "Hermano de crianza y rival" },
-        { "nombre": "Yami Sukehiro", "vinculo": "Capitán y mentor" }
+      "relations": [
+        { "name": "Yuno Grinberryall", "bond": "Hermano de crianza y rival" },
+        { "name": "Yami Sukehiro", "bond": "Capitán y mentor" }
       ],
-      "descripcion": "Un huérfano nacido sin una pizca de poder mágico en un mundo donde la magia lo es todo. Compensa esto con fuerza física y el poder de la Antimagia para convertirse en el Rey Mago."
+      "description": "Un huérfano nacido sin una pizca de poder mágico en un mundo donde la magia lo es todo. Compensa esto con fuerza física y el poder de la Antimagia para convertirse en el Rey Mago."
     },
     {
       "id": 9,
-      "nombre": "Ichigo Kurosaki",
+      "name": "Ichigo Kurosaki",
       "alias": "Shinigami Sustituto",
-      "obra_origen": "Bleach",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 17,
-        "fecha_nacimiento": "15-07",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Bleach",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 17,
+        "birth_date": "15-07",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Naranja (Natural)",
-        "color_ojos": "Marrón",
-        "rasgos_notables": ["Ceño fruncido constante", "Lleva una espada gigantesca (Zangetsu)"]
+      "appearance": {
+        "hair_color": "Naranja (Natural)",
+        "eye_color": "Marrón",
+        "notable_features": ["Ceño fruncido constante", "Lleva una espada gigantesca (Zangetsu)"]
       },
-      "habilidades": [
+      "skills": [
         "Getsuga Tensho",
         "Shikai y Bankai (Tensa Zangetsu)",
         "Poderes de Shinigami, Hollow y Quincy",
         "Shunpo (Paso veloz)"
       ],
-      "relaciones": [
-        { "nombre": "Rukia Kuchiki", "vinculo": "Aliada y amiga cercana" },
-        { "nombre": "Yasutora Sado (Chad)", "vinculo": "Mejor amigo" }
+      "relations": [
+        { "name": "Rukia Kuchiki", "bond": "Aliada y amiga cercana" },
+        { "name": "Yasutora Sado (Chad)", "bond": "Mejor amigo" }
       ],
-      "descripcion": "Un estudiante de secundaria con la capacidad de ver fantasmas que absorbe por accidente los poderes de una Shinigami, asumiendo el deber de proteger a los humanos de los espíritus malignos llamados Hollows."
+      "description": "Un estudiante de secundaria con la capacidad de ver fantasmas que absorbe por accidente los poderes de una Shinigami, asumiendo el deber de proteger a los humanos de los espíritus malignos llamados Hollows."
     },
     {
       "id": 10,
-      "nombre": "Ken Kaneki",
+      "name": "Ken Kaneki",
       "alias": "Ojo Parchado / El Parche",
-      "obra_origen": "Tokyo Ghoul",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 19,
-        "fecha_nacimiento": "20-12",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Tokyo Ghoul",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 19,
+        "birth_date": "20-12",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Negro / Blanco (Tras tortura)",
-        "color_ojos": "Gris / Rojo (Ojo Ghoul izquierdo)",
-        "rasgos_notables": ["Máscara de cuero con cremallera", "Hábito de tronarse los dedos"]
+      "appearance": {
+        "hair_color": "Negro / Blanco (Tras tortura)",
+        "eye_color": "Gris / Rojo (Ojo Ghoul izquierdo)",
+        "notable_features": ["Máscara de cuero con cremallera", "Hábito de tronarse los dedos"]
       },
-      "habilidades": [
+      "skills": [
         "Kagune de tipo Rinkaku",
         "Regeneración sobrehumana",
         "Kakuja completo"
       ],
-      "relaciones": [
-        { "nombre": "Hideyoshi Nagachika", "vinculo": "Mejor amigo" },
-        { "nombre": "Touka Kirishima", "vinculo": "Aliada y posterior esposa" }
+      "relations": [
+        { "name": "Hideyoshi Nagachika", "bond": "Mejor amigo" },
+        { "name": "Touka Kirishima", "bond": "Aliada y posterior esposa" }
       ],
-      "descripcion": "Un estudiante universitario amante de los libros que se convierte en mitad ghoul tras recibir el trasplante de órganos de una ghoul que intentó devorarlo."
+      "description": "Un estudiante universitario amante de los libros que se convierte en mitad ghoul tras recibir el trasplante de órganos de una ghoul que intentó devorarlo."
     },
     {
       "id": 11,
-      "nombre": "Tanjiro Kamado",
+      "name": "Tanjiro Kamado",
       "alias": "El chico de los pendientes Hanafuda",
-      "obra_origen": "Demon Slayer (Kimetsu no Yaiba)",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 15,
-        "fecha_nacimiento": "14-07",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Demon Slayer (Kimetsu no Yaiba)",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 15,
+        "birth_date": "14-07",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Negro con puntas burdeos",
-        "color_ojos": "Marrón oscuro",
-        "rasgos_notables": ["Cicatriz en la frente", "Pendientes Hanafuda"]
+      "appearance": {
+        "hair_color": "Negro con puntas burdeos",
+        "eye_color": "Marrón oscuro",
+        "notable_features": ["Cicatriz en la frente", "Pendientes Hanafuda"]
       },
-      "habilidades": [
+      "skills": [
         "Respiración del Agua",
         "Danza del Dios del Fuego (Hinokami Kagura)",
         "Sentido del olfato sobrehumano"
       ],
-      "relaciones": [
-        { "nombre": "Nezuko Kamado", "vinculo": "Hermana menor (Demonio)" },
-        { "nombre": "Zenitsu Agatsuma", "vinculo": "Compañero y amigo" }
+      "relations": [
+        { "name": "Nezuko Kamado", "bond": "Hermana menor (Demonio)" },
+        { "name": "Zenitsu Agatsuma", "bond": "Compañero y amigo" }
       ],
-      "descripcion": "Un joven de gran corazón que se convierte en cazador de demonios para encontrar una cura para su hermana Nezuko, transformada en demonio tras el asesinato de su familia."
+      "description": "Un joven de gran corazón que se convierte en cazador de demonios para encontrar una cura para su hermana Nezuko, transformada en demonio tras el asesinato de su familia."
     },
     {
       "id": 12,
-      "nombre": "Satoru Gojo",
+      "name": "Satoru Gojo",
       "alias": "El hechicero más fuerte",
-      "obra_origen": "Jujutsu Kaisen",
-      "rol": "Mentor / Personaje Secundario Principal",
-      "datos_personales": {
-        "edad": 28,
-        "fecha_nacimiento": "07-12",
-        "estado": "Fallecido"
+      "image": "",
+      "origin_work": "Jujutsu Kaisen",
+      "role": "Mentor / Personaje Secundario Principal",
+      "personal_data": {
+        "age": 28,
+        "birth_date": "07-12",
+        "status": "Fallecido"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Blanco",
-        "color_ojos": "Azul claro brillante",
-        "rasgos_notables": ["Venda negra o gafas oscuras ocultando sus ojos", "Estatura muy alta"]
+      "appearance": {
+        "hair_color": "Blanco",
+        "eye_color": "Azul claro brillante",
+        "notable_features": ["Venda negra o gafas oscuras ocultando sus ojos", "Estatura muy alta"]
       },
-      "habilidades": [
+      "skills": [
         "Técnica de Maldición Ilimitada",
         "Seis Ojos (Six Eyes)",
         "Expansión de Dominio: Vacío Inconmensurable",
         "Rojo, Azul y Púrpura"
       ],
-      "relaciones": [
-        { "nombre": "Yuji Itadori", "vinculo": "Estudiante" },
-        { "nombre": "Suguru Geto", "vinculo": "Ex-mejor amigo / Rival" }
+      "relations": [
+        { "name": "Yuji Itadori", "bond": "Estudiante" },
+        { "name": "Suguru Geto", "bond": "Ex-mejor amigo / Rival" }
       ],
-      "descripcion": "El chamán más poderoso del mundo moderno que trabaja como profesor en la Academia de Hechicería de Tokio, protegiendo y guiando a la nueva generación."
+      "description": "El chamán más poderoso del mundo moderno que trabaja como profesor en la Academia de Hechicería de Tokio, protegiendo y guiding a la nueva generación."
     },
     {
       "id": 13,
-      "nombre": "Izuku Midoriya",
+      "name": "Izuku Midoriya",
       "alias": "Deku",
-      "obra_origen": "My Hero Academia",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 16,
-        "fecha_nacimiento": "15-07",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "My Hero Academia",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 16,
+        "birth_date": "15-07",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Verde oscuro",
-        "color_ojos": "Verde",
-        "rasgos_notables": ["Pecas en las mejillas", "Cicatrices en las manos debido a sus poderes"]
+      "appearance": {
+        "hair_color": "Verde oscuro",
+        "eye_color": "Verde",
+        "notable_features": ["Pecas en las mejillas", "Cicatrices en las manos debido a sus poderes"]
       },
-      "habilidades": [
+      "skills": [
         "Kosei: One For All",
         "Látigo Negro, Flotar, Sensor de Peligro",
         "Detroit Smash / Shoot Style"
       ],
-      "relaciones": [
-        { "nombre": "All Might", "vinculo": "Mentor / Ídolo" },
-        { "nombre": "Katsuki Bakugo", "vinculo": "Rival y amigo de la infancia" }
+      "relations": [
+        { "name": "All Might", "bond": "Mentor / Ídolo" },
+        { "name": "Katsuki Bakugo", "bond": "Rival y amigo de la infancia" }
       ],
-      "descripcion": "Un chico nacido sin superpoderes en un mundo lleno de ellos, cuyo coraje innato llama la atención del héroe número uno, quien le hereda su don."
+      "description": "Un chico nacido sin superpoderes en un mundo lleno de ellos, cuyo coraje innato llama la atención del héroe número uno, quien le hereda su don."
     },
     {
       "id": 14,
-      "nombre": "Edward Elric",
+      "name": "Edward Elric",
       "alias": "El Alquimista de Acero",
-      "obra_origen": "Fullmetal Alchemist",
-      "rol": "Protagonista",
-      "datos_personales": {
-        "edad": 16,
-        "fecha_nacimiento": "Desconocida",
-        "estado": "Vivo"
+      "image": "",
+      "origin_work": "Fullmetal Alchemist",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 16,
+        "birth_date": "Desconocida",
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Rubio",
-        "color_ojos": "Dorado",
-        "rasgos_notables": ["Brazo derecho y pierna izquierda mecánicos (Automail)", "Baja estatura"]
+      "appearance": {
+        "hair_color": "Rubio",
+        "eye_color": "Dorado",
+        "notable_features": ["Brazo derecho y pierna izquierda mecánicos (Automail)", "Baja estatura"]
       },
-      "habilidades": [
+      "skills": [
         "Alquimia sin círculo de transmutación",
         "Intelecto de genio alquímico",
         "Combate cuerpo a cuerpo avanzado"
       ],
-      "relaciones": [
-        { "nombre": "Alphonse Elric", "vinculo": "Hermano menor" },
-        { "nombre": "Winry Rockbell", "vinculo": "Amiga de la infancia / Mecánica" }
+      "relations": [
+        { "name": "Alphonse Elric", "bond": "Hermano menor" },
+        { "name": "Winry Rockbell", "bond": "Amiga de la infancia / Mecánica" }
       ],
-      "descripcion": "Un joven prodigio de la alquimia que busca la Piedra Filosofal para restaurar su cuerpo y el de su hermano tras un fallido intento de resucitar a su madre."
+      "description": "Un joven prodigio de la alquimia que busca la Piedra Filosofal para restaurar su cuerpo y el de su hermano tras un fallido intento de resucitar a su madre."
     },
     {
       "id": 15,
-      "nombre": "Eren Yeager",
+      "name": "Eren Yeager",
       "alias": "El Titán de Ataque",
-      "obra_origen": "Attack on Titan (Shingeki no Kyojin)",
-      "rol": "Protagonista / Antagonista",
-      "datos_personales": {
-        "edad": 19,
-        "fecha_nacimiento": "30-03",
-        "estado": "Fallecido"
+      "image": "",
+      "origin_work": "Attack on Titan (Shingeki no Kyojin)",
+      "role": "Protagonista / Antagonista",
+      "personal_data": {
+        "age": 19,
+        "birth_date": "30-03",
+        "status": "Fallecido"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
-      "apariencia": {
-        "color_pelo": "Castaño oscuro",
-        "color_ojos": "Verde / Gris",
-        "rasgos_notables": ["Mirada intensa", "Pelo largo en las últimas etapas", "Marcas de titán bajo los ojos"]
+      "appearance": {
+        "hair_color": "Castaño oscuro",
+        "eye_color": "Verde / Gris",
+        "notable_features": ["Mirada intensa", "Pelo largo en las últimas etapas", "Marcas de titán bajo los ojos"]
       },
-      "habilidades": [
+      "skills": [
         "Poder del Titán de Ataque",
         "Poder del Titán Fundador",
         "Poder del Titán Martillo de Guerra",
         "Uso del Equipo de Maniobras Tridimensionales"
       ],
-      "relaciones": [
-        { "nombre": "Mikasa Ackerman", "vinculo": "Hermana adoptiva / Protectora" },
-        { "nombre": "Armin Arlert", "vinculo": "Mejor amigo" }
+      "relations": [
+        { "name": "Mikasa Ackerman", "bond": "Hermana adoptiva / Protectora" },
+        { "name": "Armin Arlert", "bond": "Mejor amigo" }
       ],
-      "descripcion": "Un joven que jura exterminar a todos los Titanes tras presenciar la destrucción de su hogar, solo para descubrir oscuros secretos sobre el origen del mundo y de sí mismo."
+      "description": "Un joven que jura exterminar a todos los Titanes tras presenciar la destrucción de su hogar, solo para descubrir oscuros secretos sobre el origen del mundo y de sí mismo."
     }
   ]
 }

@@ -1,57 +1,59 @@
-// Asegúrate de que tu archivo JSON se llame exactamente "personajes.json" y esté en la carpeta "json"
-const requestURL = '../json/personajes.json'; 
+// Cambiado a 'character.json' para que coincida exactamente con tu archivo en inglés
+const requestURL = '../json/character.json'; 
 
-async function fetchPersonajesJson() {
+async function fetchMoviesJson() {
     const response = await fetch(requestURL);
-    const datos = await response.json();
-    return datos;
+    const movies = await response.json();
+    return movies;
 }
 
-fetchPersonajesJson().then(datos => {
-    const section = document.getElementById('animeSection');
+fetchMoviesJson().then(movies => {
+    // Conectamos con el ID de tu index.html actual
+    const animeSection = document.getElementById('animeSection');
 
-    for (let index = 0; index < datos.personajes.length; index++) {
-        let p = datos.personajes[index];
+    // Mantenemos tu bucle original apuntando a tu lista .personajes del JSON
+    for (let index = 0; index < movies.personajes.length; index++) {
 
-        // Mapeamos el array de habilidades a etiquetas visuales (badges) de Bootstrap
-        let habilidadesBadges = p.habilidades
-            .map(h => `<span class="badge bg-secondary me-1 mb-1">${h}</span>`)
-            .join('');
+        // Extraemos los datos de cada personaje
+        let title = movies.personajes[index].nombre;
+        let alias = movies.personajes[index].alias;
+        let obra = movies.personajes[index].obra_origen;
+        let rol = movies.personajes[index].rol;
+        let edad = movies.personajes[index].datos_personales.edad;
+        let estado = movies.personajes[index].datos_personales.estado;
+        let synopsis = movies.personajes[index].descripcion;
+        
+        // Leemos la propiedad 'imagen' donde pusiste tu link de Cloudinary
+        let poster = movies.personajes[index].imagen;
+        
+        // Si el campo está vacío "", ponemos una imagen por defecto para que no salga rota
+        if (poster === "") {
+            poster = "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400";
+        }
 
-        // Colocamos una imagen por defecto dinámica basada en el nombre del personaje para que la tarjeta no quede vacía
-        let imagenPlaceholder = `https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400&auto=format&fit=crop&q=60`;
+        // Convertimos el array de habilidades en un texto separado por comas
+        let habilidades = movies.personajes[index].habilidades.join(', ');
 
-        section.innerHTML += `
+        // Inyectamos la tarjeta en tu contenedor 'animeSection'
+        animeSection.innerHTML += `
         <div class="card" style="width: 18rem;">
-            <img src="${imagenPlaceholder}" class="card-img-top" alt="${p.nombre}">
-            <div class="card-body d-flex flex-column justify-content-between">
-                <div>
-                    <span class="badge bg-danger float-end">${p.rol}</span>
-                    <h5 class="card-title text-primary mb-1">${p.nombre}</h5>
-                    <p class="card-text text-muted small mb-3"><em>"${p.alias}"</em></p>
-                    
-                    <p class="card-text mb-2 small">
-                        <strong>Obra:</strong> ${p.obra_origen}<br>
-                        <strong>Edad:</strong> ${p.datos_personales.edad} (${p.datos_personales.estado})
-                    </p>
-                    
-                    <hr class="my-2 text-secondary">
-                    
-                    <p class="card-text small mb-3">
-                        <strong>Habilidades:</strong><br>
-                        ${habilidadesBadges}
-                    </p>
-                    
-                    <p class="card-text small text-dark">${p.descripcion}</p>
-                </div>
+            <img src="${poster}" class="card-img-top" alt="${title}">
+            <div class="card-body">
+                <span class="badge bg-danger float-end">${rol}</span>
+                <h5 class="card-title text-primary mb-1">${title}</h5>
+                <p class="card-text text-muted small"><em>"${alias}"</em></p>
                 
-                <div class="mt-3 pt-2 border-top text-muted xx-small">
-                    Debut: Manga ${p.debut.manga} / Anime ${p.debut.anime}
-                </div>
+                <p class="card-text mb-2">
+                    <strong>Obra:</strong> ${obra}<br>
+                    <strong>Edad:</strong> ${edad} (${estado})
+                </p>
+                
+                <h6 class="card-title h6 small mb-2"><strong>Habilidades:</strong></h6>
+                <p class="card-text small text-secondary mb-3">${habilidades}</p>
+                
+                <p class="card-text small">${synopsis}</p>
             </div>
         </div>
         `;
     }
-}).catch(error => {
-    console.error("Error al cargar el archivo JSON:", error);
 });
