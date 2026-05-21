@@ -1,17 +1,36 @@
 {
-    "documentaries":[
-        {
-            "id": 1,
-            "name": "hola",
-            "anime": "My Octopus Teacher",
-            "description": "",
-            "hability 1": "1h 25m",
-            "hability 2": "Pppa Ehrlicj, Jame Reed",
-            "hability 3": "Hola",
-            "ultimate": ""
-        },
-        {
-
-        }
-    ]
+  "personajes": [
+    {
+      "id": 1,
+      "nombre": "Monkey D. Luffy",
+      "alias": "Sombrero de Paja",
+      "obra_origen": "One Piece",
+      "rol": "Protagonista",
+      "datos_personales": {
+        "edad": 19,
+        "fecha_nacimiento": "05-05",
+        "estado": "Vivo"
+      },
+      "debut": {
+        "manga": "Capítulo 1",
+        "anime": "Episodio 1"
+      },
+      "apariencia": {
+        "color_pelo": "Negro",
+        "color_ojos": "Negro",
+        "rasgos_notables": ["Cicatriz bajo el ojo izquierdo", "Sombrero de paja"]
+      },
+      "habilidades": [
+        "Fruta del Diablo (Hito Hito no Mi: Modelo Nika)",
+        "Haki del Conquistador",
+        "Haki de Armadura",
+        "Haki de Observación"
+      ],
+      "relaciones": [
+        { "nombre": "Roronoa Zoro", "vinculo": "Primer oficial / Amigo" },
+        { "nombre": "Portgas D. Ace", "vinculo": "Hermano jurado" }
+      ],
+      "descripcion": "Un joven pirata que sueña con encontrar el legendario tesoro One Piece y convertirse en el Rey de los Piratas."
+    }
+  ]
 }
