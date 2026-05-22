@@ -1,4 +1,4 @@
-const requestURL = '../json/db.json';
+const requestURL = './json/db.json';
 let allCharacters = []; 
 async function fetchanimesJson() {
     const response = await fetch(requestURL);
