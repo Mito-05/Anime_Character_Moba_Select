@@ -1,3 +1,15 @@
+@keyframes floatLoop {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 body {
     background-color: #0d1117;
     color: #f0f6fc;            
@@ -6,19 +18,16 @@ body {
     padding: 0;
 }
 
-
 h1, h2, h3, h4, h5, h6 {
     color: #ffffff;
     font-weight: 700;
 }
-
 
 .mainHeader {
     background-color: #161b22; 
     border-bottom: 2px solid #ff4a4a; 
     padding: 15px 0;
 }
-
 
 .cardDocumentaries {
     display: flex;
@@ -28,17 +37,16 @@ h1, h2, h3, h4, h5, h6 {
     gap: 30px;              
     padding: 20px 0;
 }
+
 .card-body .card-text.text-muted em,
 .card-body .text-muted {
     color: #b1b8c0;
 }
 
-
 .card-body .text-secondary,
 .card-body .text-muted.small {
     color: #c9d1d9; 
 }
-
 
 .card-body p {
     color: #e6edf3; 
@@ -55,38 +63,40 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 12px;       
     overflow: hidden;          
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    animation: floatLoop 4s ease-in-out infinite;
+    transition: box-shadow 0.4s ease, border-color 0.4s ease; 
 }
-
 
 .card-body {
     background-color: #161b22;
     color: #c9d1d9; 
 }
 
-/* Imagen del personaje */
 .card-img-top {
     height: 240px;         
     object-fit: cover;     
     border-bottom: 1px solid #30363d;
+    transition: transform 0.5s ease;
 }
-
 
 .card-title.text-primary {
     color: #58a6ff; 
-
 }
+
 .card-body strong {
     color: #ffffff; 
 }
 
-
 .card:hover {
-    transform: translateY(-8px) scale(1.03); 
-    box-shadow: 0 8px 25px rgba(255, 74, 74, 0.25); 
+    animation-play-state: paused;
     border-color: #ff4a4a; 
+    box-shadow: 0 0 30px rgba(255, 74, 74, 0.6), 0 0 60px rgba(255, 74, 74, 0.2);
+    cursor: pointer;
 }
 
+.card:hover .card-img-top {
+    transform: scale(1.03);
+}
 
 .mainFooter {
     background-color: #090d13;
@@ -105,4 +115,3 @@ h1, h2, h3, h4, h5, h6 {
 .footerSocialMedia a img:hover {
     opacity: 1; 
 }
-
