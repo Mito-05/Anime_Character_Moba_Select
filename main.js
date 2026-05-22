@@ -74,3 +74,16 @@ fetchanimesJson().then(animes => {
     allCharacters = animes.characters;
     displayCharacters(allCharacters); 
 });
+const themeToggle = document.getElementById('themeToggle');
+
+themeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    if (document.body.classList.contains('dark-mode')) {
+        themeToggle.textContent = 'Modo Normal';
+        themeToggle.className = 'btn btn-light btn-sm';
+    } else {
+        themeToggle.textContent = 'Modo Oscuro';
+        themeToggle.className = 'btn btn-outline-light btn-sm';
+    }
+});

@@ -115,3 +115,52 @@ h1, h2, h3, h4, h5, h6 {
 .footerSocialMedia a img:hover {
     opacity: 1; 
 }
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body.dark-mode .mainHeader {
+    background-color: #0a0a0a;
+    border-bottom: 2px solid #ff4a4a;
+}
+
+body.dark-mode .card {
+    background-color: #0d0d0d;
+    border: 1px solid #222222;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .card-body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+}
+
+body.dark-mode .card-body .card-text.text-muted em,
+body.dark-mode .card-body .text-muted {
+    color: #888888;
+}
+
+body.dark-mode .card-body .text-secondary,
+body.dark-mode .dark-mode .card-body .text-muted.small {
+    color: #aaaaaa;
+}
+
+body.dark-mode .card-body p {
+    color: #ffffff;
+}
+
+body.dark-mode .card-img-top {
+    border-bottom: 1px solid #222222;
+}
+
+body.dark-mode .card:hover {
+    border-color: #ff4a4a;
+    box-shadow: 0 0 35px rgba(255, 74, 74, 0.8), 0 0 70px rgba(255, 74, 74, 0.3);
+}
+
+body.dark-mode .mainFooter {
+    background-color: #050505;
+    border-top: 1px solid #222222;
+    color: #777777;
+}
