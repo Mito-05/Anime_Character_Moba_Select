@@ -1,37 +1,34 @@
 const requestURL = '../json/characters.json';
 
-async function fetchMoviesJson() {
+async function fetchanimesJson() {
     const response = await fetch(requestURL);
-    const movies = await response.json();
-    return movies;
+    const animes = await response.json();
+    return animes;
 }
 
-fetchMoviesJson().then(movies => {
-    // Obtenemos el contenedor una sola vez fuera del bucle para optimizar rendimiento
+fetchanimesJson().then(animes => {
     const animeSection = document.getElementById('animeSection');
 
-    // Bucle mapeado exactamente sobre la clave "characters" de tu JSON
-    for (let index = 0; index < movies.characters.length; index++) {
+    for (let index = 0; index < animes.characters.length; index++) {
 
-        let id = movies.characters[index].id;
-        let title = movies.characters[index].name;
-        let alias = movies.characters[index].alias;
-        let obra = movies.characters[index].origin_work;
-        let rol = movies.characters[index].role;
-        let edad = movies.characters[index].personal_data.age;
-        let estado = movies.characters[index].personal_data.status;
-        let synopsis = movies.characters[index].description;
+        let id = animes.characters[index].id;
+        let title = animes.characters[index].name;
+        let alias = animes.characters[index].alias;
+        let obra = animes.characters[index].origin_work;
+        let rol = animes.characters[index].role;
+        let edad = animes.characters[index].personal_data.age;
+        let estado = animes.characters[index].personal_data.status;
+        let synopsis = animes.characters[index].description;
         
-        // Controlamos si la propiedad 'image' está vacía
-        let poster = movies.characters[index].image;
+
+        let poster = animes.characters[index].image;
         if (poster === "") {
             poster = "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=400";
         }
 
-        // Convertimos el array "skills" en una cadena de texto separada por comas
-        let habilidades = movies.characters[index].skills.join(', ');
 
-        // Inyectamos la tarjeta en el HTML
+        let habilidades = animes.characters[index].skills.join(', ');
+
         animeSection.innerHTML += `
         <div class="card" style="width: 18rem;">
             <img src="${poster}" class="card-img-top" alt="${title}">

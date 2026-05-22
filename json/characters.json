@@ -36,7 +36,7 @@
       "id": 2,
       "name": "Naruto Uzumaki",
       "alias": "El héroe de Konoha",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435211/thumb-1920-1377509_czgy3l.jpg",
       "origin_work": "Naruto",
       "role": "Protagonista",
       "personal_data": {
@@ -69,7 +69,7 @@
       "id": 3,
       "name": "Son Goku",
       "alias": "Kakarotto",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435283/goku-romqcigcpn1a7uh4_fk4ytp.jpg",
       "origin_work": "Dragon Ball",
       "role": "Protagonista",
       "personal_data": {
@@ -102,7 +102,7 @@
       "id": 4,
       "name": "Sung Jin-Woo",
       "alias": "El Monarca de las Sombras",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435348/thumb-1920-1374534_vtn5r9.jpg",
       "origin_work": "Solo Leveling",
       "role": "Protagonista",
       "personal_data": {
@@ -135,7 +135,7 @@
       "id": 5,
       "name": "Rudeus Greyrat",
       "alias": "Quagmire (Pantano)",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1774443129/thumb-1920-1204565_ydk0ml.jpg",
       "origin_work": "Mushoku Tensei",
       "role": "Protagonista",
       "personal_data": {
@@ -169,7 +169,7 @@
       "id": 6,
       "name": "Light Yagami",
       "alias": "Kira",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435389/176539-light_yagami-ryuk-death_note-r_e_m-animated_cartoon-1920x1080_utyt4t.jpg",
       "origin_work": "Death Note",
       "role": "Protagonista / Antagonista",
       "personal_data": {
@@ -201,7 +201,7 @@
       "id": 7,
       "name": "Shoyo Hinata",
       "alias": "El Pequeño Giant / Carnada Definitiva",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435429/thumb-1920-1048450_bz55wr.jpg",
       "origin_work": "Haikyu!!",
       "role": "Protagonista",
       "personal_data": {
@@ -233,7 +233,7 @@
       "id": 8,
       "name": "Asta",
       "alias": "El chico sin magia",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435461/thumb-1920-1399535_ockjaq.jpg",
       "origin_work": "Black Clover",
       "role": "Protagonista",
       "personal_data": {
@@ -266,7 +266,7 @@
       "id": 9,
       "name": "Ichigo Kurosaki",
       "alias": "Shinigami Sustituto",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435530/Bleach_set13_Otaku_keyart1_1920x1080-002_zffbfs.jpg",
       "origin_work": "Bleach",
       "role": "Protagonista",
       "personal_data": {
@@ -299,7 +299,7 @@
       "id": 10,
       "name": "Ken Kaneki",
       "alias": "Ojo Parchado / El Parche",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1774442892/thumb-1920-783646_mwkjyi.jpg",
       "origin_work": "Tokyo Ghoul",
       "role": "Protagonista",
       "personal_data": {
@@ -331,7 +331,7 @@
       "id": 11,
       "name": "Tanjiro Kamado",
       "alias": "El chico de los pendientes Hanafuda",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435589/tanjiro-kamado-1920x1080-10054_ynj4wm.jpg",
       "origin_work": "Demon Slayer (Kimetsu no Yaiba)",
       "role": "Protagonista",
       "personal_data": {
@@ -363,9 +363,9 @@
       "id": 12,
       "name": "Satoru Gojo",
       "alias": "El hechicero más fuerte",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435677/thumb-1920-1322714_ly6qta.jpg",
       "origin_work": "Jujutsu Kaisen",
-      "role": "Mentor / Personaje Secundario Principal",
+      "role": "Mentor / Secundario Principal",
       "personal_data": {
         "age": 28,
         "birth_date": "07-12",
@@ -396,7 +396,7 @@
       "id": 13,
       "name": "Izuku Midoriya",
       "alias": "Deku",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435760/thumb-1920-981473_amewto.jpg",
       "origin_work": "My Hero Academia",
       "role": "Protagonista",
       "personal_data": {
@@ -428,7 +428,7 @@
       "id": 14,
       "name": "Edward Elric",
       "alias": "El Alquimista de Acero",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435870/thumb-1920-1401914_pzcujt.jpg",
       "origin_work": "Fullmetal Alchemist",
       "role": "Protagonista",
       "personal_data": {
@@ -460,7 +460,7 @@
       "id": 15,
       "name": "Eren Yeager",
       "alias": "El Titán de Ataque",
-      "image": "",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435923/thumb-1920-1406283_n3iwla.png",
       "origin_work": "Attack on Titan (Shingeki no Kyojin)",
       "role": "Protagonista / Antagonista",
       "personal_data": {
@@ -488,6 +488,38 @@
         { "name": "Armin Arlert", "bond": "Mejor amigo" }
       ],
       "description": "Un joven que jura exterminar a todos los Titanes tras presenciar la destrucción de su hogar, solo para descubrir oscuros secretos sobre el origen del mundo y de sí mismo."
+    },
+    {
+      "id": 16,
+      "name": "Qifrey",
+      "alias": "El Mago de Agua",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779436112/thumb-1920-1409067_joobdm.png",
+      "origin_work": "Witch Hat Atelier (Tongari Boushi no Atelier)",
+      "role": "Mentor / Secundario Principal",
+      "personal_data": {
+        "age": 28,
+        "birth_date": "Desconocida",
+        "status": "Vivo"
+      },
+      "debut": {
+        "manga": "Capítulo 1",
+        "anime": "Por anunciarse"
+      },
+      "appearance": {
+        "hair_color": "Blanco / Plateado",
+        "eye_color": "Azul claro (ojo derecho oculto por el flequillo)",
+        "notable_features": ["Lleva gafas", "Viste la túnica y el sombrero puntiagudo de los magos", "Tiene un parche oculto en el ojo derecho"]
+      },
+      "skills": [
+        "Magia de agua de alto nivel",
+        "Dibujo de runas e insignias mágicas a gran velocidad",
+        "Intelecto táctico y conocimiento profundo de las leyes mágicas"
+      ],
+      "relations": [
+        { "name": "Coco", "bond": "Aprendiz / Alumna principal" },
+        { "name": "Olruggio", "bond": "Amigo cercano / Centinela del atelier" }
+      ],
+      "description": "Un hábil mago que rompe las reglas tradicionales al rescatar a Coco y tomarla como su aprendiz tras un trágico accidente mágico. Aunque de apariencia amable, paciente y excéntrica, posee un pasado oscuro y está obsesionado en secreto con rastrear a los Sombreros de Ala (los magos prohibidos)."
     }
   ]
 }
