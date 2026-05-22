@@ -62,7 +62,7 @@ function filterBy(value, property) {
         displayCharacters(allCharacters);
     } else {
         const filtered = allCharacters.filter(character => {
-            // Evaluamos dinámicamente si filtramos por 'origin_work' o por 'role'
+            
             return character[property] === value;
         });
         displayCharacters(filtered);
