@@ -1,9 +1,109 @@
-.cardDocumentaries {
-    display: flex;
-    flex-wrap: wrap;            
-    flex-direction: row;        
-    justify-content: center;                  
+body {
+    background-color: #0d1117;
+    color: #f0f6fc;            
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.mainHeader {
+    background-color: #161b22; 
+    border-bottom: 2px solid #ff4a4a; 
+    padding: 15px 0;
+}
+
+
+.cardDocumentaries {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 30px;              
+    padding: 20px 0;
+}
+.card-body .card-text.text-muted em,
+.card-body .text-muted {
+    color: #b1b8c0;
+}
+
+
+.card-body .text-secondary,
+.card-body .text-muted.small {
+    color: #c9d1d9; 
+}
+
+
+.card-body p {
+    color: #e6edf3; 
+}
+
+.card-body h6, 
+.card-body .h6 {
+    color: #ffffff;
+}
+
+.card {
+    background-color: #161b22;
+    border: 1px solid #30363d; 
+    border-radius: 12px;       
+    overflow: hidden;          
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.card-body {
+    background-color: #161b22;
+    color: #c9d1d9; 
+}
+
+/* Imagen del personaje */
+.card-img-top {
+    height: 240px;         
+    object-fit: cover;     
+    border-bottom: 1px solid #30363d;
+}
+
+
+.card-title.text-primary {
+    color: #58a6ff; 
+
+}
+.card-body strong {
+    color: #ffffff; 
+}
+
+
+.card:hover {
+    transform: translateY(-8px) scale(1.03); 
+    box-shadow: 0 8px 25px rgba(255, 74, 74, 0.25); 
+    border-color: #ff4a4a; 
+}
+
+
+.mainFooter {
+    background-color: #090d13;
+    border-top: 1px solid #30363d;
+    color: #8b949e;
+}
+
+.footerSocialMedia a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); 
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.footerSocialMedia a img:hover {
+    opacity: 1; 
+}
 
 
