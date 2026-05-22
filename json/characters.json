@@ -27,15 +27,14 @@
         "Haki (Conquistador, Armadura, Observación)"
       ],
       "relations": [
-        { "name": "Roronoa Zoro", "bond": "Primer oficial / Amigo" },
-        { "name": "Portgas D. Ace", "bond": "Hermano jurado" }
+        { "name": "Roronoa Zoro", "bond": "Vicecapitán y amigo" }
       ],
-      "description": "Un joven pirata que sueña con encontrar el legendario tesoro One Piece y convertirse en el Rey de los Piratas."
+      "description": "Un joven pirata que sueña con encontrar el legendario tesoro One Piece y convertirse en el próximo Rey de los Piratas gracias a sus habilidades elásticas y su inquebrantable fuerza de voluntad."
     },
     {
       "id": 2,
       "name": "Naruto Uzumaki",
-      "alias": "El héroe de Konoha",
+      "alias": "El Héroe de Konoha",
       "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435211/thumb-1920-1377509_czgy3l.jpg",
       "origin_work": "Naruto",
       "role": "Protagonista",
@@ -54,16 +53,14 @@
         "notable_features": ["Marcas de bigotes en las mejillas", "Banda de Konoha"]
       },
       "skills": [
-        "Rasengan",
-        "Kage Bunshin no Jutsu (Clones de sombra)",
-        "Modo Sabio",
-        "Modo Kurama"
+        "Rasengan y variaciones",
+        "Kage Bunshin no Jutsu (Clones de Sombra)",
+        "Modo Sabio y Modo Kurama"
       ],
       "relations": [
-        { "name": "Sasuke Uchiha", "bond": "Rival y mejor amigo" },
-        { "name": "Jiraiyan", "bond": "Maestro / Mentor" }
+        { "name": "Sasuke Uchiha", "bond": "Rival y mejor amigo" }
       ],
-      "description": "Un ninja hiperactivo que busca el reconocimiento de su aldea y sueña con convertirse en Hokage."
+      "description": "Un ninja hiperactivo que busca el reconocimiento de su aldea y sueña con convertirse en Hokage, superando el rechazo de su pasado al albergar al zorro de nueve colas en su interior."
     },
     {
       "id": 3,
@@ -84,19 +81,17 @@
       "appearance": {
         "hair_color": "Negro",
         "eye_color": "Negro",
-        "notable_features": ["Cabello erizado en puntas", "Cola de Saiyan (antiguamente)"]
+        "notable_features": ["Cabello erizado característico", "Traje de artes marciales naranja"]
       },
       "skills": [
         "Kamehameha",
-        "Super Saiyan (1, 2, 3, God, Blue)",
-        "Ultra Instinto",
-        "Kaioken"
+        "Transformaciones Super Saiyan (1, 2, 3, God, Blue)",
+        "Ultra Instinto y Kaioken"
       ],
       "relations": [
-        { "name": "Vegeta", "bond": "Rival y aliado" },
-        { "name": "Krilin", "bond": "Mejor amigo" }
+        { "name": "Vegeta", "bond": "Rival de raza" }
       ],
-      "description": "Un guerrero de la raza Saiyan criado en la Tierra cuyo único objetivo es superarse a sí mismo y luchar contra oponentes fuertes."
+      "description": "Un guerrero de la raza Saiyan criado en la Tierra cuyo único objetivo en la vida es superarse a sí mismo y luchar contra oponentes extremadamente fuertes para proteger el universo."
     },
     {
       "id": 4,
@@ -111,70 +106,34 @@
         "status": "Vivo"
       },
       "debut": {
-        "manga": "Capítulo 1 (Manhwa)",
-        "anime": "Episodio 1"
-      },
-      "appearance": {
-        "hair_color": "Negro",
-        "eye_color": "Gris / Azul brillante (al usar poderes)",
-        "notable_features": ["Mirada fría y afilada", "Brillo azul en los ojos"]
-      },
-      "skills": [
-        "Extracción de Sombras (Arise)",
-        "Intercambio de Sombras",
-        "Autoridad del Monarca",
-        "Velocidad y fuerza sobrehumanas"
-      ],
-      "relations": [
-        { "name": "Yoo Jin-Ho", "bond": "Amigo y socio" },
-        { "name": "Cha Hae-In", "bond": "Interés romántico" }
-      ],
-      "description": "Conocido originalmente como el cazador más débil de la humanidad, obtiene la capacidad de subir de nivel sin límites tras sobrevivir a una doble mazmorra."
-    },
-    {
-      "id": 5,
-      "name": "Rudeus Greyrat",
-      "alias": "Quagmire (Pantano)",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1774443129/thumb-1920-1204565_ydk0ml.jpg",
-      "origin_work": "Mushoku Tensei",
-      "role": "Protagonista",
-      "personal_data": {
-        "age": 23,
-        "birth_date": "Año 407 del Reino de Asura",
-        "status": "Vivo"
-      },
-      "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
       "appearance": {
-        "hair_color": "Castaño claro / Rubio",
-        "eye_color": "Verde",
-        "notable_features": ["Ojo místico de la previsión", "Suele vestir túnicas de mago"]
+        "hair_color": "Negro",
+        "eye_color": "Gris / Azul brillante al usar poderes",
+        "notable_features": ["Brillo azul en los ojos", "Viste ropa oscura y elegante"]
       },
       "skills": [
-        "Magia sin encantamiento",
-        "Magia de agua de nivel Dios",
-        "Magia de tierra (creación de pantanos)",
-        "Ojo de la Previsión"
+        "Extracción de Sombras (Arise)",
+        "Intercambio de Sombras",
+        "Autoridad del Monarca, Velocidad y fuerza sobrehumanas"
       ],
       "relations": [
-        { "name": "Sylphiette", "bond": "Esposa / Amiga de la infancia" },
-        { "name": "Roxy Migurdia", "bond": "Maestra y esposa" },
-        { "name": "Eris Boreas Greyrat", "bond": "Esposa y aliada de combate" }
+        { "name": "Cha Hae-In", "bond": "Interés amoroso" }
       ],
-      "description": "Un hombre desempleado y recluso de 34 años muere y reencarna en un mundo de fantasía medieval, decidido a vivir su nueva vida al máximo y sin arrepentimientos."
+      "description": "Conocido originalmente como el cazador más débil de la humanidad, obtiene la capacidad única de subir de nivel sin límites tras sobrevivir a una doble mazmorra, convirtiéndose en un dios."
     },
     {
-      "id": 6,
-      "name": "Light Yagami",
-      "alias": "Kira",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435389/176539-light_yagami-ryuk-death_note-r_e_m-animated_cartoon-1920x1080_utyt4t.jpg",
-      "origin_work": "Death Note",
-      "role": "Protagonista / Antagonista",
+      "id": 5,
+      "name": "Eren Yeager",
+      "alias": "El Titán de Ataque",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435923/thumb-1920-1406283_n3iwla.png",
+      "origin_work": "Attack on Titan",
+      "role": "Protagonista",
       "personal_data": {
-        "age": 23,
-        "birth_date": "28-02",
+        "age": 19,
+        "birth_date": "30-03",
         "status": "Fallecido"
       },
       "debut": {
@@ -183,87 +142,21 @@
       },
       "appearance": {
         "hair_color": "Castaño",
-        "eye_color": "Marrón / Rojo (efecto dramático)",
-        "notable_features": ["Aspecto pulcro de estudiante modelo", "Mirada calculadora"]
-      },
-      "skills": [
-        "Intelecto genio",
-        "Estratega maestro",
-        "Uso de la Death Note"
-      ],
-      "relations": [
-        { "name": "L Lawliet", "bond": "Rival intelectual / Enemigo" },
-        { "name": "Misa Amane", "bond": "Aliada / Peón" }
-      ],
-      "description": "Un brillante estudiante de secundaria que encuentra un cuaderno sobrenatural capaz de matar a cualquiera cuyo nombre se escriba en él, desatando una cruzada para limpiar el mundo del crimen."
-    },
-    {
-      "id": 7,
-      "name": "Shoyo Hinata",
-      "alias": "El Pequeño Giant / Carnada Definitiva",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435429/thumb-1920-1048450_bz55wr.jpg",
-      "origin_work": "Haikyu!!",
-      "role": "Protagonista",
-      "personal_data": {
-        "age": 16,
-        "birth_date": "21-06",
-        "status": "Vivo"
-      },
-      "debut": {
-        "manga": "Capítulo 1",
-        "anime": "Episodio 1"
-      },
-      "appearance": {
-        "hair_color": "Naranja",
-        "eye_color": "Marrón",
-        "notable_features": ["Baja estatura para el voleibol", "Expresiones extremadamente energéticas"]
-      },
-      "skills": [
-        "Salto vertical extraordinario",
-        "Velocidad y reflejos inhumanos",
-        "Ataque rápido divino (con Kageyama)"
-      ],
-      "relations": [
-        { "name": "Tobio Kageyama", "bond": "Rival y compañero de equipo" },
-        { "name": "Kenma Kozume", "bond": "Amigo y rival" }
-      ],
-      "description": "Un jugador de voleibol de baja estatura que, inspirado por el 'Pequeño Gigante', lucha por convertirse en la estrella del equipo Karasuno superando sus barreras físicas."
-    },
-    {
-      "id": 8,
-      "name": "Asta",
-      "alias": "El chico sin magia",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435461/thumb-1920-1399535_ockjaq.jpg",
-      "origin_work": "Black Clover",
-      "role": "Protagonista",
-      "personal_data": {
-        "age": 17,
-        "birth_date": "04-10",
-        "status": "Vivo"
-      },
-      "debut": {
-        "manga": "Capítulo 1",
-        "anime": "Episodio 1"
-      },
-      "appearance": {
-        "hair_color": "Gris ceniza",
         "eye_color": "Verde",
-        "notable_features": ["Musculatura muy desarrollada", "Banda negra en la cabeza", "Grimorio de 5 hojas"]
+        "notable_features": ["Mirada intensa", "Cabello largo en la etapa final"]
       },
       "skills": [
-        "Antimagia",
-        "Espadas del Grimorio (Danma, Shukuma, etc.)",
-        "Forma Black Asta",
-        "Lectura de Ki"
+        "Transformación en Titán (Ataque, Fundador, Martillo de Guerra)",
+        "Regeneración acelerada",
+        "Coordenada y control sobre los titanes puros"
       ],
       "relations": [
-        { "name": "Yuno Grinberryall", "bond": "Hermano de crianza y rival" },
-        { "name": "Yami Sukehiro", "bond": "Capitán y mentor" }
+        { "name": "Mikasa Ackerman", "bond": "Protectora y mejor amiga" }
       ],
-      "description": "Un huérfano nacido sin una pizca de poder mágico en un mundo donde la magia lo es todo. Compensa esto con fuerza física y el poder de la Antimagia para convertirse en el Rey Mago."
+      "description": "Un joven impulsivo que juró exterminar a todos los titanes del mundo tras presenciar la muerte de su madre, descubriendo más adelante oscuros secretos que cambiarían su destino."
     },
     {
-      "id": 9,
+      "id": 6,
       "name": "Ichigo Kurosaki",
       "alias": "Shinigami Sustituto",
       "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435530/Bleach_set13_Otaku_keyart1_1920x1080-002_zffbfs.jpg",
@@ -279,26 +172,55 @@
         "anime": "Episodio 1"
       },
       "appearance": {
-        "hair_color": "Naranja (Natural)",
+        "hair_color": "Naranja natural",
         "eye_color": "Marrón",
-        "notable_features": ["Ceño fruncido constante", "Lleva una espada gigantesca (Zangetsu)"]
+        "notable_features": ["Cabello naranja llamativo", "Uniforme negro de Shinigami con espada gigante"]
       },
       "skills": [
         "Getsuga Tensho",
-        "Shikai y Bankai (Tensa Zangetsu)",
-        "Poderes de Shinigami, Hollow y Quincy",
-        "Shunpo (Paso veloz)"
+        "Liberación de Bankai (Tensa Zangetsu)",
+        "Poderes combinados de Shinigami, Hollow y Quincy"
       ],
       "relations": [
-        { "name": "Rukia Kuchiki", "bond": "Aliada y amiga cercana" },
-        { "name": "Yasutora Sado (Chad)", "bond": "Mejor amigo" }
+        { "name": "Rukia Kuchiki", "bond": "Compañera que le dio sus poderes" }
       ],
-      "description": "Un estudiante de secundaria con la capacidad de ver fantasmas que absorbe por accidente los poderes de una Shinigami, asumiendo el deber de proteger a los humanos de los espíritus malignos llamados Hollows."
+      "description": "Un estudiante de secundaria con la capacidad de ver fantasmas que obtiene los poderes de un Shinigami por accidento, asumiendo el deber de proteger a los humanos y guiar a las almas."
     },
     {
-      "id": 10,
+      "id": 7,
+      "name": "Tanjiro Kamado",
+      "alias": "El Cazador de la Marca",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435589/tanjiro-kamado-1920x1080-10054_ynj4wm.jpg",
+      "origin_work": "Demon Slayer",
+      "role": "Protagonista",
+      "personal_data": {
+        "age": 16,
+        "birth_date": "14-07",
+        "status": "Vivo"
+      },
+      "debut": {
+        "manga": "Capítulo 1",
+        "anime": "Episodio 1"
+      },
+      "appearance": {
+        "hair_color": "Negro con puntas burdeos",
+        "eye_color": "Marrón oscuro",
+        "notable_features": ["Cicatriz en la frente", "Pendientes de cartas Hanafuda"]
+      },
+      "skills": [
+        "Respiración del Agua",
+        "Danza del Dios del Fuego (Hinokami Kagura)",
+        "Olfato sobrehumano extremadamente agudo"
+      ],
+      "relations": [
+        { "name": "Nezuko Kamado", "bond": "Hermana menor" }
+      ],
+      "description": "Un joven de gran corazón que se une al cuerpo de cazadores de demonios para encontrar una cura para su hermana Nezuko, transformada en demonio tras el asesinato de su familia."
+    },
+    {
+      "id": 8,
       "name": "Ken Kaneki",
-      "alias": "Ojo Parchado / El Parche",
+      "alias": "Ojo Parchado / El Segador Negro",
       "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1774442892/thumb-1920-783646_mwkjyi.jpg",
       "origin_work": "Tokyo Ghoul",
       "role": "Protagonista",
@@ -312,31 +234,61 @@
         "anime": "Episodio 1"
       },
       "appearance": {
-        "hair_color": "Negro / Blanco (Tras tortura)",
-        "eye_color": "Gris / Rojo (Ojo Ghoul izquierdo)",
-        "notable_features": ["Máscara de cuero con cremallera", "Hábito de tronarse los dedos"]
+        "hair_color": "Blanco (originalmente negro)",
+        "eye_color": "Gris / Rojo (Kakugan izquierdo)",
+        "notable_features": ["Máscara de cuero con sonrisa de dientes", "Usa un parche médico sobre el ojo izquierdo"]
       },
       "skills": [
-        "Kagune de tipo Rinkaku",
-        "Regeneración sobrehumana",
-        "Kakuja completo"
+        "Kagune de tipo Rinkaku (tentáculos rojos de alta regeneración)",
+        "Kakuja completo (Forma de ciempiés)",
+        "Artes marciales y regeneración instantánea"
       ],
       "relations": [
-        { "name": "Hideyoshi Nagachika", "bond": "Mejor amigo" },
-        { "name": "Touka Kirishima", "bond": "Aliada y posterior esposa" }
+        { "name": "Touka Kirishima", "bond": "Compañera y protectora en Anteiku" }
       ],
-      "description": "Un estudiante universitario amante de los libros que se convierte en mitad ghoul tras recibir el trasplante de órganos de una ghoul que intentó devorarlo."
+      "description": "Un estudiante universitario amante de la lectura que se convierte en un híbrido mitad humano y mitad ghoul tras recibir el trasplante de órganos de un monstruo que intentó devorarlo."
     },
     {
-      "id": 11,
-      "name": "Tanjiro Kamado",
-      "alias": "El chico de los pendientes Hanafuda",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435589/tanjiro-kamado-1920x1080-10054_ynj4wm.jpg",
-      "origin_work": "Demon Slayer (Kimetsu no Yaiba)",
-      "role": "Protagonista",
+      "id": 9,
+      "name": "Meruem",
+      "alias": "El Rey de las Hormigas Quimera",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779470212/thumb-1920-1163395_pqixph.jpg",
+      "origin_work": "Hunter x Hunter",
+      "role": "Antagonista",
       "personal_data": {
-        "age": 15,
-        "birth_date": "14-07",
+        "age": 0,
+        "birth_date": "Durante el arco de las Hormigas",
+        "status": "Fallecido"
+      },
+      "debut": {
+        "manga": "Capítulo 213",
+        "anime": "Episodio 91"
+      },
+      "appearance": {
+        "hair_color": "No tiene",
+        "eye_color": "Violeta",
+        "notable_features": ["Aspecto humanoide con rasgos de insecto", "Cola larga con un aguijón en la punta"]
+      },
+      "skills": [
+        "Fuerza y velocidad divinas",
+        "Síntesis de Aura (Absorbe el poder de quienes consume)",
+        "Intelecto táctico absoluto e invulnerabilidad casi total"
+      ],
+      "relations": [
+        { "name": "Komugi", "bond": "Compañera de Gungi y la persona que cambió su visión del mundo" }
+      ],
+      "description": "El descendiente definitivo de la Reina de las Hormigas Quimera. Nació para gobernar sobre todas las especies biológicas del mundo, demostrando una crueldad infinita que poco a poco se humaniza gracias al juego del Gungi."
+    },
+    {
+      "id": 10,
+      "name": "Ryomen Sukuna",
+      "alias": "El Rey de las Maldiciones",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779470259/thumb-1920-1407535_dgfsdq.png",
+      "origin_work": "Jujutsu Kaisen",
+      "role": "Antagonista",
+      "personal_data": {
+        "age": 1000,
+        "birth_date": "Era Heian",
         "status": "Vivo"
       },
       "debut": {
@@ -344,153 +296,146 @@
         "anime": "Episodio 1"
       },
       "appearance": {
-        "hair_color": "Negro con puntas burdeos",
-        "eye_color": "Marrón oscuro",
-        "notable_features": ["Cicatriz en la frente", "Pendientes Hanafuda"]
+        "hair_color": "Rosa / Puntiagudo",
+        "eye_color": "Rojo",
+        "notable_features": ["Tatuajes tribales por todo el cuerpo", "Dos ojos extra bajo los principales"]
       },
       "skills": [
-        "Respiración del Agua",
-        "Danza del Dios del Fuego (Hinokami Kagura)",
-        "Sentido del olfato sobrehumano"
+        "Manipulación de Energía Maldita de nivel catastrófico",
+        "Técnica Maldita: Desmantelar y Cortar",
+        "Expansión de Dominio: Relicario Maldito"
       ],
       "relations": [
-        { "name": "Nezuko Kamado", "bond": "Hermana menor (Demonio)" },
-        { "name": "Zenitsu Agatsuma", "bond": "Compañero y amigo" }
+        { "name": "Yuji Itadori", "bond": "Recipiente humano al que atormenta" }
       ],
-      "description": "Un joven de gran corazón que se convierte en cazador de demonios para encontrar una cura para su hermana Nezuko, transformada en demonio tras el asesinato de su familia."
+      "description": "Un hechicero despiadado de la era dorada del jujutsu que se transformó en un objeto maldito tras su muerte dividido en 20 dedos. Es egoísta, sádico y posee un poder destructivo inmenso."
+    },
+    {
+      "id": 11,
+      "name": "Sosuke Aizen",
+      "alias": "El Traidor de la Sociedad de Almas",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779470358/thumb-1920-947135_hxokhp.png",
+      "origin_work": "Bleach",
+      "role": "Antagonista",
+      "personal_data": {
+        "age": 500,
+        "birth_date": "29-05",
+        "status": "Vivo"
+      },
+      "debut": {
+        "manga": "Capítulo 79",
+        "anime": "Episodio 23"
+      },
+      "appearance": {
+        "hair_color": "Castaño",
+        "eye_color": "Marrón",
+        "notable_features": ["Un mechón cayendo por su rostro", "Mirada calculadora y elegante"]
+      },
+      "skills": [
+        "Hipnosis Total mediante su Zanpaku-to (Kyoka Suigetsu)",
+        "Poder espiritual inmenso y maestría en Kido",
+        "Fusión con el Hogyoku para obtener transformaciones divinas"
+      ],
+      "relations": [
+        { "name": "Ichigo Kurosaki", "bond": "Enemigo jurado cuya vida manipuló en secreto" }
+      ],
+      "description": "Antiguo capitán del Quinto Escuadrón que traicionó a la Sociedad de Almas. Intelectual brillante y manipulador maestro que planeó eventos durante siglos para derrocar al Rey Espíritu."
     },
     {
       "id": 12,
+      "name": "Madara Uchiha",
+      "alias": "El Fantasma de los Uchiha",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779470433/thumb-1920-695428_aahoxb.jpg",
+      "origin_work": "Naruto",
+      "role": "Antagonista",
+      "personal_data": {
+        "age": 100,
+        "birth_date": "24-12",
+        "status": "Fallecido"
+      },
+      "debut": {
+        "manga": "Capítulo 370",
+        "anime": "Episodio 130"
+      },
+      "appearance": {
+        "hair_color": "Negro largo y alborotado",
+        "eye_color": "Negro / Rojo (Sharingan) / Púrpura (Rinnegan)",
+        "notable_features": ["Armadura roja clásica de guerra", "Cabello extremadamente largo que cubre un ojo"]
+      },
+      "skills": [
+        "Manejo legendario del Sharingan y Rinnegan",
+        "Susanoo Perfecto de tamaño colosal",
+        "Jutsu de Estilo de Fuego devastador y Taijutsu maestro"
+      ],
+      "relations": [
+        { "name": "Hashirama Senju", "bond": "Rival histórico y cofundador de la aldea" }
+      ],
+      "description": "Líder legendario del clan Uchiha que, impulsado por el dolor de la pérdida, diseñó el plan 'Ojo de Luna' para sumergir al mundo entero en una ilusión de paz eterna a través del Tsukuyomi Infinito."
+    },
+    {
+      "id": 13,
       "name": "Satoru Gojo",
-      "alias": "El hechicero más fuerte",
+      "alias": "El Hechicero Más Fuerte",
       "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435677/thumb-1920-1322714_ly6qta.jpg",
       "origin_work": "Jujutsu Kaisen",
       "role": "Mentor / Secundario Principal",
       "personal_data": {
         "age": 28,
         "birth_date": "07-12",
-        "status": "Fallecido"
+        "status": "Vivo"
       },
       "debut": {
         "manga": "Capítulo 1",
         "anime": "Episodio 1"
       },
       "appearance": {
-        "hair_color": "Blanco",
-        "eye_color": "Azul claro brillante",
+        "hair_color": "Blanco / Plateado",
+        "eye_color": "Azul cielo brillante",
         "notable_features": ["Venda negra o gafas oscuras ocultando sus ojos", "Estatura muy alta"]
       },
       "skills": [
         "Técnica de Maldición Ilimitada",
-        "Seis Ojos (Six Eyes)",
-        "Expansión de Dominio: Vacío Inconmensurable",
-        "Rojo, Azul y Púrpura"
+        "Seis Ojos (Rikugan)",
+        "Expansión de Dominio: Vacío Inconmensurable"
       ],
       "relations": [
-        { "name": "Yuji Itadori", "bond": "Estudiante" },
-        { "name": "Suguru Geto", "bond": "Ex-mejor amigo / Rival" }
+        { "name": "Yuji Itadori", "bond": "Alumno y protegido" }
       ],
-      "description": "El chamán más poderoso del mundo moderno que trabaja como profesor en la Academia de Hechicería de Tokio, protegiendo y guiding a la nueva generación."
-    },
-    {
-      "id": 13,
-      "name": "Izuku Midoriya",
-      "alias": "Deku",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435760/thumb-1920-981473_amewto.jpg",
-      "origin_work": "My Hero Academia",
-      "role": "Protagonista",
-      "personal_data": {
-        "age": 16,
-        "birth_date": "15-07",
-        "status": "Vivo"
-      },
-      "debut": {
-        "manga": "Capítulo 1",
-        "anime": "Episodio 1"
-      },
-      "appearance": {
-        "hair_color": "Verde oscuro",
-        "eye_color": "Verde",
-        "notable_features": ["Pecas en las mejillas", "Cicatrices en las manos debido a sus poderes"]
-      },
-      "skills": [
-        "Kosei: One For All",
-        "Látigo Negro, Flotar, Sensor de Peligro",
-        "Detroit Smash / Shoot Style"
-      ],
-      "relations": [
-        { "name": "All Might", "bond": "Mentor / Ídolo" },
-        { "name": "Katsuki Bakugo", "bond": "Rival y amigo de la infancia" }
-      ],
-      "description": "Un chico nacido sin superpoderes en un mundo lleno de ellos, cuyo coraje innato llama la atención del héroe número uno, quien le hereda su don."
+      "description": "Un maestro flojo e informal de la escuela de magia de Tokio que resulta ser el ser más poderoso del mundo moderno, rompiendo el balance del universo con su sola presencia."
     },
     {
       "id": 14,
-      "name": "Edward Elric",
-      "alias": "El Alquimista de Acero",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435870/thumb-1920-1401914_pzcujt.jpg",
-      "origin_work": "Fullmetal Alchemist",
-      "role": "Protagonista",
+      "name": "Jiraiya",
+      "alias": "El Sabio de los Sapos",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779470512/naruto-shippuden-jiraiya-cosplay-cgzhsbq4xok3cftb_kszmkz.jpg",
+      "origin_work": "Naruto",
+      "role": "Mentor / Secundario Principal",
       "personal_data": {
-        "age": 16,
-        "birth_date": "Desconocida",
-        "status": "Vivo"
-      },
-      "debut": {
-        "manga": "Capítulo 1",
-        "anime": "Episodio 1"
-      },
-      "appearance": {
-        "hair_color": "Rubio",
-        "eye_color": "Dorado",
-        "notable_features": ["Brazo derecho y pierna izquierda mecánicos (Automail)", "Baja estatura"]
-      },
-      "skills": [
-        "Alquimia sin círculo de transmutación",
-        "Intelecto de genio alquímico",
-        "Combate cuerpo a cuerpo avanzado"
-      ],
-      "relations": [
-        { "name": "Alphonse Elric", "bond": "Hermano menor" },
-        { "name": "Winry Rockbell", "bond": "Amiga de la infancia / Mecánica" }
-      ],
-      "description": "Un joven prodigio de la alquimia que busca la Piedra Filosofal para restaurar su cuerpo y el de su hermano tras un fallido intento de resucitar a su madre."
-    },
-    {
-      "id": 15,
-      "name": "Eren Yeager",
-      "alias": "El Titán de Ataque",
-      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779435923/thumb-1920-1406283_n3iwla.png",
-      "origin_work": "Attack on Titan (Shingeki no Kyojin)",
-      "role": "Protagonista / Antagonista",
-      "personal_data": {
-        "age": 19,
-        "birth_date": "30-03",
+        "age": 54,
+        "birth_date": "11-11",
         "status": "Fallecido"
       },
       "debut": {
-        "manga": "Capítulo 1",
-        "anime": "Episodio 1"
+        "manga": "Capítulo 90",
+        "anime": "Episodio 52"
       },
       "appearance": {
-        "hair_color": "Castaño oscuro",
-        "eye_color": "Verde / Gris",
-        "notable_features": ["Mirada intensa", "Pelo largo en las últimas etapas", "Marcas de titán bajo los ojos"]
+        "hair_color": "Blanco largo",
+        "eye_color": "Negro",
+        "notable_features": ["Líneas rojas pintadas bajo los ojos", "Gran pergamino en la espalda"]
       },
       "skills": [
-        "Poder del Titán de Ataque",
-        "Poder del Titán Fundador",
-        "Poder del Titán Martillo de Guerra",
-        "Uso del Equipo de Maniobras Tridimensionales"
+        "Invocación de Sapos (Gamabunta)",
+        "Modo Sabio de los Sapos",
+        "Rasengan maestro y jutsus de cabello protector"
       ],
       "relations": [
-        { "name": "Mikasa Ackerman", "bond": "Hermana adoptiva / Protectora" },
-        { "name": "Armin Arlert", "bond": "Mejor amigo" }
+        { "name": "Naruto Uzumaki", "bond": "Alumno y ahijado" }
       ],
-      "description": "Un joven que jura exterminar a todos los Titanes tras presenciar la destrucción de su hogar, solo para descubrir oscuros secretos sobre el origen del mundo y de sí mismo."
+      "description": "Uno de los tres legendarios Sannin de Konoha. Escritor excéntrico y viajero que entrena a Naruto enseñándole el Rasengan y los valores esenciales de un verdadero shinobi."
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Qifrey",
       "alias": "El Mago de Agua",
       "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779436112/thumb-1920-1409067_joobdm.png",
@@ -507,19 +452,49 @@
       },
       "appearance": {
         "hair_color": "Blanco / Plateado",
-        "eye_color": "Azul claro (ojo derecho oculto por el flequillo)",
-        "notable_features": ["Lleva gafas", "Viste la túnica y el sombrero puntiagudo de los magos", "Tiene un parche oculto en el ojo derecho"]
+        "eye_color": "Azul claro",
+        "notable_features": ["Lleva gafas", "Túnica y sombrero puntiagudo de mago", "Parche oculto en el ojo derecho"]
       },
       "skills": [
         "Magia de agua de alto nivel",
-        "Dibujo de runas e insignias mágicas a gran velocidad",
+        "Dibujo de runas mágicas a gran velocidad",
         "Intelecto táctico y conocimiento profundo de las leyes mágicas"
       ],
       "relations": [
-        { "name": "Coco", "bond": "Aprendiz / Alumna principal" },
-        { "name": "Olruggio", "bond": "Amigo cercano / Centinela del atelier" }
+        { "name": "Coco", "bond": "Aprendiz / Alumna principal" }
       ],
-      "description": "Un hábil mago que rompe las reglas tradicionales al rescatar a Coco y tomarla como su aprendiz tras un trágico accidente mágico. Aunque de apariencia amable, paciente y excéntrica, posee un pasado oscuro y está obsesionado en secreto con rastrear a los Sombreros de Ala (los magos prohibidos)."
+      "description": "Un hábil mago que rompe las reglas tradicionales al rescatar a Coco y tomarla como aprendiz. Aunque es paciente y amable, posee un pasado oscuro y está obsesionado en secreto con rastrear a los Sombreros de Ala."
+    },
+    {
+      "id": 16,
+      "name": "Kisuke Urahara",
+      "alias": "El Tendero de Karakura",
+      "image": "https://res.cloudinary.com/divgcktiw/image/upload/v1779470559/thumb-1920-332374_ji1xmn.jpg",
+      "origin_work": "Bleach",
+      "role": "Mentor / Secundario Principal",
+      "personal_data": {
+        "age": 450,
+        "birth_date": "31-12",
+        "status": "Vivo"
+      },
+      "debut": {
+        "manga": "Capítulo 13",
+        "anime": "Episodio 6"
+      },
+      "appearance": {
+        "hair_color": "Rubio pálido / Alborotado",
+        "eye_color": "Gris",
+        "notable_features": ["Sombrero de rayas verdes y blancas", "Sandalias tradicionales de madera y bastón"]
+      },
+      "skills": [
+        "Intelecto a nivel genio e invención (Creador del Hogyoku)",
+        "Liberación de Zanpaku-to (Benihime)",
+        "Maestría absoluta en Shundo y combate táctico"
+      ],
+      "relations": [
+        { "name": "Ichigo Kurosaki", "bond": "Entrenador y guía estratégico" }
+      ],
+      "description": "Antiguo capitán de la Duodécima División exiliado en el mundo humano. Regenta una pequeña tienda de dulces mientras actúa como la mente maestra oculta que ayuda a Ichigo a prepararse contra las amenazas cósmicas."
     }
   ]
 }

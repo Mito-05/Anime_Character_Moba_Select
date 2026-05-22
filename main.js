@@ -7,10 +7,10 @@ async function fetchanimesJson() {
     return animes;
 }
 
-// Función encargada de pintar las tarjetas en el HTML
+
 function displayCharacters(charactersList) {
     const animeSection = document.getElementById('animeSection');
-    animeSection.innerHTML = ""; // Limpiamos la sección antes de pintar
+    animeSection.innerHTML = ""; 
 
     for (let index = 0; index < charactersList.length; index++) {
         let title = charactersList[index].name;
