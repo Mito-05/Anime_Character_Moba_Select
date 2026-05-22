@@ -84,4 +84,4 @@ Open the `index.html` file directly in any modern web browser or execute it usin
 ## Live Deployment
 The production environment of this application is fully optimized, compiled, and hosted on Vercel.
 
-👉 **Live Demo Link:** [View Live Project on Vercel](*https://anime-character-moba-select.vercel.app/*)
+👉 **Live Demo Link:** [View Live Project on Vercel](https://anime-character-moba-select.vercel.app/)
